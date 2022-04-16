@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
 </head>
 <body>
+
+    <aside>
+        <img src={% static 'main/css/img/img_1.svg' %} alt="img">
+    </aside>
+
+    <main>
     {% block content %}
     {% endblock %}
+    </main>
 </body>
 </html>
